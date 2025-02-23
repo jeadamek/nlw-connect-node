@@ -3,9 +3,16 @@ Content-Type: application/json
 
 {
   "name": "Jessica Adamek",
-  "email": "teste@teste.com.br"
+  "email": "teste@teste.com"
 }
 
 ###
 
-GET http://localhost:3333/invites/4b7b21d9-2b3a-4146-89a0-60467275ae6a
+GET http://localhost:3333/invites/jess123
+
+###
+GET http://localhost:3333/subscribers/jess123/ranking/clicks
+
+
+
+
