@@ -2,17 +2,18 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Jessica Adamek",
-  "email": "teste@teste.com"
+  "name": "Usuario indicado",
+  "email": "indicado@teste.com",
+  "referrer": "82328e5b-525c-42ef-824f-9ef1be21761b"
 }
 
 ###
 
-GET http://localhost:3333/invites/jess123
+GET http://localhost:3333/invites/82328e5b-525c-42ef-824f-9ef1be21761b
 
 ###
-GET http://localhost:3333/subscribers/jess123/ranking/clicks
+GET http://localhost:3333/subscribers/82328e5b-525c-42ef-824f-9ef1be21761b/ranking/clicks
 
 
-
-
+###
+GET http://localhost:3333/subscribers/82328e5b-525c-42ef-824f-9ef1be21761b/ranking/count
